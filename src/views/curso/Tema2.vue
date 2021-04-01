@@ -49,7 +49,7 @@
 
       p.pt-3 Componentes básicos del buen servicio.
 
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/shield.png")
@@ -57,7 +57,7 @@
             p.h6 Seguridad:
             p sólo está bien cubierta cuando podemos decir que brindamos al cliente cero riesgos, cero peligros y cero dudas en el servicio.
 
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/credibilidad.png")
@@ -65,7 +65,7 @@
             p.h6 Credibilidad:
             p va de la mano de la seguridad, hay que demostrar seguridad absoluta para crear un ambiente de confianza, además hay que ser veraces y honestos, no sobre prometer o mentir con tal de realizar la venta.
 
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/charla.png")
@@ -73,7 +73,7 @@
             p.h6 Comunicación:
             p se debe mantener bien informado al cliente utilizando un lenguaje oral y corporal sencillo que pueda entender, si ya hemos cubierto los aspectos de seguridad y credibilidad, seguramente será más sencillo mantener abierto el canal de comunicación cliente – empresa.
 
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/person.png")
@@ -81,7 +81,7 @@
             p.h6 Comprensión del cliente:
             p no se trata de sonreírle en todo momento a los clientes sino de mantener una buena comunicación que permita saber qué desea, cuándo lo desea y cómo lo desea en un esfuerzo por ponerse en su lugar.
 
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/accesibilidad.png")
@@ -89,7 +89,7 @@
             p.h6 Accesibilidad:
             p para dar un excelente servicio debemos tener varias vías de contacto con el cliente, buzones de sugerencias, quejas y reclamos, tanto físicamente como en el sitio web (si se cuenta con él), línea 800 además, hay que establecer un conducto regular dentro de la organización para este tipo de observaciones.
 
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/amabilidad.png")
@@ -97,7 +97,7 @@
             p.h6 Cortesía:
             p atención, simpatía, respeto y amabilidad del personal, como dicen por ahí, la educación y las buenas maneras no pelean con nadie. Es más fácil cautivar a los  clientes si se les da un excelente trato y brinda una gran atención.
 
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/licencia.png")
@@ -105,7 +105,7 @@
             p.h6 Profesionalismo:
             p posesión de las destrezas necesarias y conocimiento de la ejecución del servicio, de parte de todos los miembros de la organización, recuerda que no sólo las personas que se encuentran en el Front line hacen el servicio.
 
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/brain.png")
@@ -113,7 +113,7 @@
             p.h6 Capacidad de respuesta:
             p disposición de ayudar a los clientes y proveerlos de un servicio rápido y oportuno.  Los clientes no tienen por qué rogar para ser atendidos, ni para que sus dificultades o problemas sean solucionados, se debe estar al tanto de las dificultades, para estar un paso adelante de ellas y una buena forma de hacerlo es retro alimentándose con las observaciones de los clientes.
           
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/fiabilidad.png")
@@ -121,7 +121,7 @@
             p.h6 Fiabilidad:
             p es la capacidad de la organización de ejecutar el servicio de forma fiable, sin contratiempos ni problemas, este componente se ata directamente a la seguridad y a la credibilidad.
 
-      .container.tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
+      .tarjeta.tarjeta__template--azul-claro.px-4.pt-4.pt-md-1.mb-4
         .row
           .col-12.col-md-3.col-lg-2.d-flex.align-items-center
             img.normal(src="@/assets/curso/tema2/book.png")
@@ -134,70 +134,68 @@
       p No todos los clientes son iguales cada cliente es único y requiere un trato individualizado y personalizado  sin embargo si existen características comunes que permiten clasificarlos en distintos grupos. Se pueden clasificar por su <strong>origen, nacionalidad, idioma, edad, sexo, la actividad a la que se dedican</strong>, etc. No es una clasificación estricta pero ayuda para <strong>conocer sus necesidades y permitir tratarlo según sus expectativas</strong>, así como ampliar la oferta para ofrecer distintos servicios según su clasificación.
 
       h3.h5.mb-4 2.3.1 Tipología según la personalidad
-
-      .container
-        .row
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/happy-couple-greeting-financial-consultant.jpg")
-              figcaption.position-absolute.bottom-0.text-center Amigable
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/serious-female-model-standing-against-lay-figure-and-rack-of-clothes-holding-hangers-with-clothes-in-one-hand-and-smart-phone-reading-about-discounts-in-clothes-shop.jpg")
-              figcaption.position-absolute.bottom-0.text-center Frívolo o mundano
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/happy-woman-in-trendy-red-dress-waving-hand-outdoor-shot-of-positive-beautiful-girl-walking-by-street-cafe.jpg")
-              figcaption.position-absolute.bottom-0.text-center Sociales
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/outside-portrait-in-profile-of-model-with-lush-eyelashes-pretty-girl-drinks-cappuccino-and-smiles-shyly.jpg")
-              figcaption.position-absolute.bottom-0.text-center Tímidos
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/young-blond-woman-in-clothing-store-back-view-difficult-choice.jpg")
-              figcaption.position-absolute.bottom-0.text-center Difícil o exigente
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/beautiful-smart-asian-young-entrepreneur-business-woman-owner-sme-online-checking-product-stock-save-computer-working-home.jpg")
-              figcaption.position-absolute.bottom-0.text-center Independiente
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/woman-have-argument-in-cafe.jpg")
-              figcaption.position-absolute.bottom-0.text-center Impaciente
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/lady-sitting-on-couch-looking-in-her-shopping-bags.jpg")
-              figcaption.position-absolute.bottom-0.text-center Curioso
+      
+      .row
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/happy-couple-greeting-financial-consultant.jpg")
+            figcaption.position-absolute.bottom-0.text-center Amigable
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/serious-female-model-standing-against-lay-figure-and-rack-of-clothes-holding-hangers-with-clothes-in-one-hand-and-smart-phone-reading-about-discounts-in-clothes-shop.jpg")
+            figcaption.position-absolute.bottom-0.text-center Frívolo o mundano
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/happy-woman-in-trendy-red-dress-waving-hand-outdoor-shot-of-positive-beautiful-girl-walking-by-street-cafe.jpg")
+            figcaption.position-absolute.bottom-0.text-center Sociales
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/outside-portrait-in-profile-of-model-with-lush-eyelashes-pretty-girl-drinks-cappuccino-and-smiles-shyly.jpg")
+            figcaption.position-absolute.bottom-0.text-center Tímidos
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/young-blond-woman-in-clothing-store-back-view-difficult-choice.jpg")
+            figcaption.position-absolute.bottom-0.text-center Difícil o exigente
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/beautiful-smart-asian-young-entrepreneur-business-woman-owner-sme-online-checking-product-stock-save-computer-working-home.jpg")
+            figcaption.position-absolute.bottom-0.text-center Independiente
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/woman-have-argument-in-cafe.jpg")
+            figcaption.position-absolute.bottom-0.text-center Impaciente
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/lady-sitting-on-couch-looking-in-her-shopping-bags.jpg")
+            figcaption.position-absolute.bottom-0.text-center Curioso
 
       h3.h5.mb-4 2.3.2 Tipología según la actitudes
 
-      .container
-        .row
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/disagreement-between-waiter-and-customer.jpg")
-              figcaption.position-absolute.bottom-0.text-center Enfado
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/boss-worrying-because-of-company-bad-annual-report.jpg")
-              figcaption.position-absolute.bottom-0.text-center Desconfiado
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/positive-and-smileful-man-stand-and-point-on-black-car-he-looks-at-young-woman-she-is-listening-to-him-model-is-calm-and-peaceful.jpg")
-              figcaption.position-absolute.bottom-0.text-center Tranquilo
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/young-beautiful-woman-using-her-smart-watch-while-shopping-at-the-mall-copy-space.jpg")
-              figcaption.position-absolute.bottom-0.text-center Con prisa
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/man-choosing-car-and-talking-with-salesperson.jpg")
-              figcaption.position-absolute.bottom-0.text-center Introspectivo o metódico
-          .col-12.col-md-6.col-lg-4.my-3
-            figure.position-relative
-              img(src="@/assets/curso/tema2/real-estate-agent-showing-modern-house-to-attractive-couple.jpg")
-              figcaption.position-absolute.bottom-0.text-center Elocuente o explosivo
+      .row
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/disagreement-between-waiter-and-customer.jpg")
+            figcaption.position-absolute.bottom-0.text-center Enfado
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/boss-worrying-because-of-company-bad-annual-report.jpg")
+            figcaption.position-absolute.bottom-0.text-center Desconfiado
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/positive-and-smileful-man-stand-and-point-on-black-car-he-looks-at-young-woman-she-is-listening-to-him-model-is-calm-and-peaceful.jpg")
+            figcaption.position-absolute.bottom-0.text-center Tranquilo
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/young-beautiful-woman-using-her-smart-watch-while-shopping-at-the-mall-copy-space.jpg")
+            figcaption.position-absolute.bottom-0.text-center Con prisa
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/man-choosing-car-and-talking-with-salesperson.jpg")
+            figcaption.position-absolute.bottom-0.text-center Introspectivo o metódico
+        .col-12.col-md-6.col-lg-4.my-3
+          figure.position-relative
+            img(src="@/assets/curso/tema2/real-estate-agent-showing-modern-house-to-attractive-couple.jpg")
+            figcaption.position-absolute.bottom-0.text-center Elocuente o explosivo
 
       h2.h3#t_2_4.mt-5.pt-3 2.4 Estándares
         p Se puede definir como un modelo o regla de los requisitos mínimos aceptados para ejecutar un proceso específico, con el fin de asegurar la calidad en la prestación de los servicios. Señalan de una manera clara el comportamiento esperado de los empleados y se utilizan como guías para evaluar su correcto procedimiento y lograr el mejoramiento continuo de los servicios.
