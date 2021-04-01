@@ -204,7 +204,7 @@
     h2.h3#t_2_5.mt-5.pt-3 2.5 Protocolos
     h3.h5.mt-1.mb-5 2.5.1 Definición
 
-    Acordeon(claseTarjeta="border-bottom px-4 pb-3" claseTarjetaSelected="tarjeta tarjeta__template--azul-claro px-4 pb-3" iconClose="fa-chevron-down" iconOpen="fa-chevron-up" iconClass="badge rounded-circle border border-gray fs-6" isRowReverse=true)
+    Acordeon(clase-tarjeta="border-bottom px-4 pb-3" clase-tarjeta-selected="tarjeta tarjeta__template--azul-claro px-4 pb-3" icon-close="fa-chevron-down" icon-open="fa-chevron-up" icon-class="badge rounded-circle border border-gray fs-6" is-row-reverse=true)
 
       div(titulo='1. SALUDE A SU CLIENTE "HAGA QUE ME SIENTA CÓMODO Y A GUSTO"')
         p Recuerde siempre que cuando usted saluda a un cliente y le da la bienvenida, usted está hablando a nombre de la organización para la cual trabaja. Es la empresa quien está saludando al cliente. Usted es la imagen de su empresa. Una persona se forma impresiones de otra en los primeros siete segundos de contacto. Al saludar a su cliente, muéstrele que su presencia es importante para usted. No lo mire como a un estorbo, sino como alguien que es importante. Establezca contacto visual, dele las gracias por haberlo visitado o por haberlo llamado y préstele toda su atención.
@@ -320,7 +320,7 @@
 
       p Las etapas del ciclo de servicio de hospedaje son las siguientes:
 
-    Acordeon(claseTarjeta="tarjeta tarjeta__template--azul-claro px-4 pb-3" claseTarjetaSelected="tarjeta tarjeta--azul px-4 pb-3" iconClass="badge rounded-circle shadow-sm fs-6 bg-white")
+    Acordeon(clase-tarjeta="tarjeta tarjeta__template--azul-claro px-4 pb-3" clase-tarjeta-selected="tarjeta tarjeta--azul px-4 pb-3" icon-class="badge rounded-circle shadow-sm fs-6 bg-white")
 
       div(titulo='1.  Reservación.')
         p Puede que la venta se realice o no. Esto  dependerá de la disponibilidad de habitaciones, el tipo de habitaciones, los servicios que se ofrecen, las tarifas y por supuesto la atención al cliente al momento de realizar la reserva.
