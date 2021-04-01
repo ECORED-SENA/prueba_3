@@ -1,0 +1,52 @@
+/*
+ Componentes
+ */
+
+@mixin define-tarjeta-bg($bg-name ,$bg-color)
+  .tarjeta
+    &--#{$bg-name}
+      @extend .tarjeta
+      background-color: $bg-color
+
+@include define-tarjeta-bg("color-curso-g" ,$color-curso-g) // Amarillo claro
+@include define-tarjeta-bg("color-curso-h" ,$color-curso-h) // Amarillo pollito
+
+@mixin define-boton-bg($bg-name ,$bg-color, $bg-child)
+  .boton
+    &--#{$bg-name}
+      @extend .boton
+      background-color: $bg-color
+      color: $white
+
+      span, i
+        color: $bg-child
+
+@include define-boton-bg("color-sistema-a" ,$color-sistema-a, $white) // Azul oscuro
+
+.custom-alert
+  .float-image
+    position: absolute
+    top: -15px
+    left: 2em
+
+blockquote
+  background-color: $color-curso-f
+  display: inline-block
+  border-radius: 15px
+
+/*
+ Temas
+ */
+
+.curso-main-container
+  p
+    margin: 1.2rem auto
+
+  h2, h3, h4, h5
+    margin: 3rem auto 0 auto
+
+  li
+    background: url("../assets/curso/chevron-right-solid.svg") no-repeat left
+    list-style: none
+    margin: 1rem 0
+    padding-left: 1.5rem
