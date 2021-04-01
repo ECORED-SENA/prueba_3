@@ -64,7 +64,7 @@ export default {
       height: 297px
       position: absolute
       bottom: -22px
-      right: -59px
+      right: 0
     h1
       color: $color-banner-text
       line-height: 1.1em
@@ -73,5 +73,4 @@ export default {
       .imagenBannerPrincipal
         width: 300px
         height: 200px
-        right: 0
 </style>
