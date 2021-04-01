@@ -2,10 +2,12 @@
 .container-fluid.banner-interno
   .banner-interno__fondo(:style="{'background-image': `url(${globalData.fondoBannerPrincipal})`}")
   .container
-    .banner-interno__titulo.py-5
+    .banner-interno__titulo.py-5.position-relative
       .banner-interno__titulo__icono.me-3(v-if="icono.length")
         i(:class="icono")
       h1.h3.mb-0 {{titulo}}
+      img.imagenBannerPrincipal.d-none.d-md-block(:src="globalData.imagenBannerPrincipal")
+      
 </template>
 
 <script>
@@ -57,7 +59,19 @@ export default {
         left: 50%
         top: 50%
         transform: translate(-50%,-50%)
+    .imagenBannerPrincipal
+      width: 411px
+      height: 297px
+      position: absolute
+      bottom: -22px
+      right: -59px
     h1
       color: $color-banner-text
       line-height: 1.1em
+
+    @media(max-width: $bp-max-md)
+      .imagenBannerPrincipal
+        width: 300px
+        height: 200px
+        right: 0
 </style>

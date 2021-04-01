@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(titulo="2. Servicio al Cliente")
 
-  .container.tarjeta.tarjeta--blanca.p-5
+  .container.tarjeta.tarjeta--blanca.py-4.p-md-5
     figure
       img(src="@/assets/curso/tema2/principal.jpg")
 
@@ -249,12 +249,12 @@
 
           p Recuerde que el buen trato influye en la satisfacción del cliente. Las personas van a lugares donde son apreciadas, donde se sienten bienvenidas y valoradas y vuelven a los lugares cuando se les invita a que regresen.
 
-      .container.tarjeta--color-curso-h.fs-5.fw-bold.my-5.p-5.py-4
+      .tarjeta--color-curso-h.fs-5.fw-bold.my-5.px-3.px-md-5.py-4
         .row.align-items-center
-          .col
+          .col-12.col-sm.text-center.text-md-start
             span SCRIBD (2020/10) Atención al cliente
-          .col.text-end
-            a.boton--color-sistema-a.rounded-pill.px-5
+          .col-12.col-md.text-center.text-md-end
+            a.boton--color-sistema-a.rounded-pill.px-5.mt-4.mt-md-0
               span.fw-bold Enlace aquí
 
       h3.h5  2.5.2 Tipos de protocolo

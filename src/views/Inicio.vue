@@ -9,7 +9,7 @@ section
       .titulo__template--a.col-2
         span.h6 Resultado<br>de aprendizaje
 
-      .col
+      .col-12.col-md.ps-md-5.mt-4.mt-md-0
         span Ofrecer servicios del establecimiento de acuerdo con portafolio, tipo de hotel y protocolos.
 
   //- Desarrollo de contenidos
@@ -43,7 +43,7 @@ section
       .col-sm-12.col-lg
         span Es momento de empezar tu proceso académico, descubre y explora todas las habilidades cognitivas en este nuevo curso.
       .col-sm-12.col-lg-1.ms-lg-5.mt-sm-4.mt-lg-0
-        router-link.boton--color-sistema-a.boton--sm(:to="{name: 'tema1'}")
+        router-link.boton--color-sistema-a.boton--sm.mt-4.mt-lg-0(:to="{name: 'tema1'}")
           span.me-1 Iniciar
           i(class="fas fa-angle-right")
 
