@@ -134,7 +134,7 @@
       p No todos los clientes son iguales cada cliente es único y requiere un trato individualizado y personalizado  sin embargo si existen características comunes que permiten clasificarlos en distintos grupos. Se pueden clasificar por su <strong>origen, nacionalidad, idioma, edad, sexo, la actividad a la que se dedican</strong>, etc. No es una clasificación estricta pero ayuda para <strong>conocer sus necesidades y permitir tratarlo según sus expectativas</strong>, así como ampliar la oferta para ofrecer distintos servicios según su clasificación.
 
       h3.h5.mb-4 2.3.1 Tipología según la personalidad
-      
+
       .row
         .col-12.col-md-6.col-lg-4.my-3
           figure.position-relative
@@ -258,29 +258,33 @@
       h3.h5  2.5.2 Tipos de protocolo
       p El protocolo <strong>se puede aplicar en distintos campos y sectores de actividad, tanto es así que ello da lugar a la clasificación del mismo atendiendo a las características de la actividad a la que se aplica</strong>, ya que cada precisará de determinados usos, reglas y costumbres (e incluso leyes) específicos. <br/>De acuerdo al entorno en donde se encuentre se presentan  diferentes Protocolos entre ellos:
 
-      .row
-        .col-12.col-md-3.col-lg.mb-4.mb-lg-0
-          .text-center.px-4.py-4
+      .row.my-4
+        .col-12.col-md.mb-4.mb-lg-0
+          .text-center
             img(src="@/assets/curso/tema2/oficial.png")
             span.d-block.fw-bold.mt-3 Protocolo<br>oficial
-        .col-12.col-md-3.col-lg.mb-4.mb-lg-0
-          .text-center.px-4.py-4
+        .col-12.col-md.mb-4.mb-lg-0
+          .text-center
             img(src="@/assets/curso/tema2/diplomatico.png")
             span.d-block.fw-bold.mt-3 Protocolo<br>diplomático
-        .col-12.col-md-3.col-lg.mb-4.mb-lg-0
-          .text-center.px-4.py-4
+        .col-12.col-md.mb-4.mb-lg-0
+          .text-center
             img(src="@/assets/curso/tema2/social.png")
             span.d-block.fw-bold.mt-3 Protocolo<br>social
-        .col-12.col-md-3.col-lg.mb-4.mb-lg-0
-          .text-center.px-4.py-4
+        .col-12.col-md.mb-4.mb-lg-0
+          .text-center
             img(src="@/assets/curso/tema2/empresarial.png")
             span.d-block.fw-bold.mt-3 Protocolo<br>empresarial
-        .col-12.col-md-3.col-lg.mb-4.mb-lg-0
-          .text-center.px-4.py-4
+        .col-12.col-md.mb-4.mb-lg-0
+          .text-center
+            img(src="@/assets/curso/tema2/eclesiastico.png")
+            span.d-block.fw-bold.mt-3 Protocolo<br>eclesiastico
+        .col-12.col-md.mb-4.mb-lg-0
+          .text-center
             img(src="@/assets/curso/tema2/universitario.png")
             span.d-block.fw-bold.mt-3 Protocolo<br>universitario
-        .col-12.col-md-3.col-lg.mb-4.mb-lg-0
-          .text-center.px-4.py-4
+        .col-12.col-md.mb-4.mb-lg-0
+          .text-center
             img(src="@/assets/curso/tema2/militar.png")
             span.d-block.fw-bold.mt-3 Protocolo<br>militar
 
@@ -354,20 +358,13 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-.row
-  img
-    &.normal
-      margin: 0 auto
-      height: auto
-      width: 50%
-
-    &.momentos
-      width: 80%
-
-  figure
+figure
     figcaption
       background-color: $color-curso-e
       width: 100%
       border-bottom-left-radius: 10px
       border-bottom-right-radius: 10px
+
+.momentos
+      width: 80%
 </style>

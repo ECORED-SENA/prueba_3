@@ -10,6 +10,7 @@
 
 @include define-tarjeta-bg("color-curso-g" ,$color-curso-g) // Amarillo claro
 @include define-tarjeta-bg("color-curso-h" ,$color-curso-h) // Amarillo pollito
+@include define-tarjeta-bg("color-curso-i", $color-curso-i) // Naranja claro
 
 @mixin define-boton-bg($bg-name ,$bg-color, $bg-child)
   .boton
@@ -50,3 +51,9 @@ blockquote
     list-style: none
     margin: 1rem 0
     padding-left: 1.5rem
+
+  img
+    &.normal
+      margin: 0 auto
+      height: auto
+      width: 50%
