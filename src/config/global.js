@@ -150,20 +150,19 @@ export const menuPrincipal = {
         {
           icono: 'far fa-file-alt',
           numero: '3.1',
-          titulo:
-            'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+          titulo: 'Definición',
           hash: 't_3_1',
         },
         {
           icono: 'far fa-file-alt',
           numero: '3.2',
-          titulo: 'Identificación fibras por combustión',
+          titulo: 'Tipos de comunicación',
           hash: 't_3_2',
         },
         {
           icono: 'far fa-file-alt',
           numero: '3.3',
-          titulo: 'Clasificación de los hilos',
+          titulo: 'Técnicas',
           hash: 't_3_3',
         },
         {
