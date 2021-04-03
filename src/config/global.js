@@ -168,13 +168,13 @@ export const menuPrincipal = {
         {
           icono: 'far fa-file-alt',
           numero: '3.4',
-          titulo: 'Clasificación de tejidos',
+          titulo: 'Comunicación efectiva',
           hash: 't_3_4',
         },
         {
           icono: 'far fa-file-alt',
           numero: '3.5',
-          titulo: 'Caracterización de los tejidos',
+          titulo: 'Tipos de comunicación',
           hash: 't_3_5',
         },
         {

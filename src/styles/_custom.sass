@@ -11,6 +11,7 @@
 @include define-tarjeta-bg("color-curso-g" ,$color-curso-g) // Amarillo claro
 @include define-tarjeta-bg("color-curso-h" ,$color-curso-h) // Amarillo pollito
 @include define-tarjeta-bg("color-curso-i", $color-curso-i) // Naranja claro
+@include define-tarjeta-bg("color-curso-j", $color-curso-j) // Naranja mas claro
 
 @mixin define-boton-bg($bg-name ,$bg-color, $bg-child)
   .boton
@@ -23,6 +24,15 @@
         color: $bg-child
 
 @include define-boton-bg("color-sistema-a" ,$color-sistema-a, $white) // Azul oscuro
+
+@mixin define-background($bg-name, $bg-color)
+  .bg-#{$bg-name}
+    background-color: $bg-color
+
+@include define-background("azul-claro", $color-sistema-g)
+@include define-background("color-curso-g", $color-curso-g)
+@include define-background("color-curso-i" , $color-curso-i)
+@include define-background("color-curso-j" , $color-curso-j)
 
 .custom-alert
   .float-image
@@ -46,6 +56,9 @@ blockquote
   h2, h3, h4, h5
     margin: 3rem auto 0 auto
 
+  ul:not(.nav)
+    padding-left: 0
+
   li
     &:not(.nav-item)
       background: url("../assets/curso/chevron-right-solid.svg") no-repeat 0 4px
@@ -59,3 +72,57 @@ blockquote
       margin: 0 auto
       height: auto
       width: 50%
+
+    &.auto
+      width: auto
+      height: auto
+
+  .bottom-20
+    bottom: 20%
+
+  .border-radius-20
+    border-radius: 20px
+
+  .tarjeta-numerada
+    margin: 16px 0
+    position: relative
+    &__numero-circulo
+      position: absolute
+      top: 1rem
+
+      span
+        display: inline-block
+        padding: 6px 29px
+        font-size: 3rem
+        font-weight: bold
+        color: $color-sistema-a
+        border-radius: 50%
+    &__contenido
+      margin-left: 35px
+      padding: 1rem 2rem
+      border-radius: 20px
+
+      img
+        margin: 0 auto
+        position: relative
+
+#slider-tema-3
+  .slider
+    &__action-buttons
+      bottom: 15px
+      left: 25%
+      position: absolute
+
+      a
+        background: $color-curso-k
+        display: inline-block
+        font-size: 1.2em
+        margin: 0 4px
+        padding: 3px 10px
+
+@media (max-width: $bp-max-md)
+  #slider-tema-3
+    .slider
+      &__action-buttons
+        bottom: 0
+        left: 0

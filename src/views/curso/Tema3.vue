@@ -2,6 +2,13 @@
 .curso-main-container.pb-3
   BannerInterno(titulo="3. Comunicación")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    .position-relative
+      figure
+        img(src="@/assets/curso/tema3/tema3-main.jpg")
+      .row.position-absolute.bottom-0.border-radius-20
+        .col-12.col-md-6.col-lg-6.bg-white.ms-md-2
+          p La capacidad de comunicación del personal dedicado al turismo resulta imprescindible para establecer una buena relación con los clientes y para dar una buena imagen general del establecimiento o servicio que se ofrece.
     
     h2.h3#t_3_1 3.1 Definición
     p La comunicación es un proceso que consiste en la transmisión e intercambio de mensajes entre un emisor y un receptor. La palabra deriva del latín comunicación que significa compartir, participar en algo o poner en común.
@@ -149,16 +156,273 @@
               li Se debe establecer contacto visual y la mirada debe reflejar convicción y entusiasmo, esto traslada credibilidad al mensaje.
             p La expresión debe reflejar: cortesía, amabilidad, interés, confianza.
 
+    h2.h3#t_3_4 3.4 Comunicación efectiva
+      .row
+        .col-12.col-md-6.my-3.my-md-0
+          p Busca que la persona que emite el mensaje lo realice de forma clara, directa y que no quede lugar a confusiones o malos entendidos, busca que la persona que recibe el mensaje procese la información en términos que pueda entender y dar retroalimentación sobre el mensaje que ha comprendido. Se resume en que lo valioso del proceso no es lo que se dice, sino lo que entiende el interlocutor. 
+          p La comunicación asertiva es aquella en la que el emisor logra expresar un mensaje de forma simple, oportuna y clara, considerando las necesidades del receptor.  Implica respeto hacia uno mismo al expresar sus ideas y defenderlas y respeto hacia los demás. Se trata de una habilidad social importante asociada a la inteligencia emocional y a la comunicación no verbal.
+
+        .col-12.col-md-6.my-3.my-md-0
+          figure
+            img(src="@/assets/curso/tema3/comunicacion1.jpg")
+
+        .col-12.col-md-6.my-3.my-md-0
+          figure
+            img(src="@/assets/curso/tema3/comunicacion2.jpg")
+
+        .col-12.col-md-6.my-3.my-md-0
+          p También está la comunicación agresiva que aparece cuando se mantiene una defensa de los derechos personales y opiniones propias por encima de todo y de una manera inapropiada y exigente, vulnerando los derechos de las otras personas, y 
+          p La pasiva, en la cual se vulneran los propios derechos al no ser capaz de expresar libremente las ideas, opiniones o sentimientos, lo que conlleva a no ser escuchados o que se le preste atención
+          p Por lo tanto la asertividad es la herramienta a utilizar cuando de comunicarse se trata, se puede aprender mediante la práctica, lo que hará que las comunicaciones sean más positivas.
+
+    p.h4.mt-5 PROTOCOLO DE COMUNICACIÓN EN LA ATENCIÓN
+    p La guía de protocolo de comunicación tiene como objetivo establecer normas en  la comunicación con el cliente, a fin de generar un ambiente de cordialidad, cortesía y amabilidad. Siempre mirarlo a los ojos y resolver inmediatamente su solicitud.  En caso de tener dudas, ser recursivos buscando la ayuda de un compañero de trabajo, siempre tomar la iniciativa para saludarlo.
+ 
+    p Detalles que el cliente considera positivo:
+
+    .row
+      .col-12.col-md-6
+        ul
+          li La amabilidad
+          li La corrección
+          li El respeto
+          li El buen trato
+          li La humildad
+          li La profesionalidad
+          li La limpieza
+          li Las palabras justas en el momento exacto y oportuno
+
+      .col-12.col-md-6
+        blockquote.text-end.fs-1.fw-light.p-3.p-lg-5
+          .me-5.pe-4.pe-lg-0 Siempre mirarlo a los ojos y resolver inmediatamente su solicitud.
+
+    h2.h3#t_3_5.mt-5.pt-5 3.5 Tipos de comunicación
+    h3.h5 3.5.1 Comunicación telefónica.
+    .row.justify-content-between.my-5
+      .col-12.col-md-4
+        img(src="@/assets/curso/tema3/comunicacion-telefonica.jpg")
+      .col-12.col-md-7
+        p Los clientes no ven al interlocutor y es muy fácil generar una mala interpretación por parte del cliente, por tal la importancia de <strong>atender con profesionalidad y eficacia cualquier</strong> llamada. 
+        p En la hotelería el personal debe estar preparado para tratar a todos de la manera más profesional, con prontitud, dar respuestas convenientes y solucionar dudas y problemas que tengan los clientes,  y no olvidar que su objetivo principal es <strong>"vender servicios"</strong>.
+        p Dentro de las recomendaciones se encuentra tener siempre a mano papel y bolígrafo para tomar notas, <strong>tener la información que se va a proporcionar, estar ubicado en un espacio con la menor interferencia posible</strong>, conocer el nombre de los clientes, contar con una base de datos que proporciones información del cliente cuando llame, un listado de extensiones en caso de requerir transferir la llamada, etc.
+
+    .row.justify-content-between
+      .col-12.col-md-6.pe-md-5
+        .bg-azul-claro.border-radius-20
+          figure
+            img(src="@/assets/curso/tema3/gestion-tiempo.png")
+          p.px-4.pb-4 <strong>Gestión del tiempo</strong>. Hablar de forma clara, concisa y confirmando lo que se habla. Evitar largas esperas o largas conversaciones y considerar retornar la llamada cuando no se tiene respuesta inmediata. 
+      .col-12.col-md-6.ps-md-5
+        .bg-azul-claro.border-radius-20
+          figure
+            img(src="@/assets/curso/tema3/sonreir-escuchar.png")
+          p.px-4.pb-4 <strong>Sonreír y escuchar</strong>. Un trato amable provoca que la otra parte se siente cómoda y distendida y la conversación sea mucho más productiva.  La sonrisa por tratarse de un gesto propio se transmite a través del teléfono.
+
+    .tarjeta-numerada
+      .tarjeta-numerada__numero-circulo
+        span.bg-color-curso-i 1
+      .tarjeta-numerada__contenido.bg-azul-claro
+        .row
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/conflicto.png")
+          .col-12.col-md
+            p <strong>Resolver conflictos.</strong> En ocasiones los clientes llaman porque necesitan resolver un conflicto, de nada sirve eludirlos porque los problemas no se solucionan solos y lo que puede generar es añadir un cliente enfadado.
+
+    .tarjeta-numerada
+      .tarjeta-numerada__numero-circulo
+        span.bg-color-curso-i 2
+      .tarjeta-numerada__contenido.bg-azul-claro
+        .row
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/privacidad-online.png")
+          .col-12.col-md
+            p <strong>Discresión.</strong> Se debe ser discreto y mantener la privacidad de los clientes, no escuchar conversaciones ajenas, ni divulgar conversaciones mantenidas con los clientes ya que se consideran privadas. 
+
+    .tarjeta-numerada
+      .tarjeta-numerada__numero-circulo
+        span.bg-color-curso-i 3
+      .tarjeta-numerada__contenido.bg-azul-claro
+        .row
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/mensaje-de-voz.png")
+          .col-12.col-md
+            p <strong>Voz y lenguaje.</strong>  La voz tiene que ser clara y sonriente, el lenguaje preciso y adaptado al cliente y expresarse con educación y simpatía.
+
+    .tarjeta-numerada
+      .tarjeta-numerada__numero-circulo
+        span.bg-color-curso-i 4
+      .tarjeta-numerada__contenido.bg-azul-claro
+        .row
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/auriculares.png")
+          .col-12.col-md
+            p <strong>Reglas para el buen uso del teléfono.</strong>
+            ul
+              li Saludo al iniciar la conversación.
+ 
+              li No dejar repicar más de cuatro timbres.
+
+              li Presentarse identificándose asÍ mismo y la empresa en la que trabaja.
+
+              li Sonreír al hablar.
+
+              li Preguntar el nombre completo del cliente.
+
+              li Escuchar con atención sin atender otras cosas a la vez.
+
+              li Preguntar todo lo necesario para entender el mensaje correctamente.
+
+              li En caso de interrumpir por cualquier razón la llamada se debe disculpar y reanudar la conversación con amabilidad.
+
+              li No comer ni beber mientras se habla.
+
+              li Llamar al cliente por su nombre, con respeto.
+
+              li En caso de no poder dar respuesta inmediata, dejarlo saber al cliente e informarle plazo aproximado para resolución del mismo.
+ 
+              li No actuar como oyente pasivo, no interrumpir a la otra persona mientras está hablando, intercalar expresiones que le hagan entender que está atento.
+
+              li Mantener informado al cliente de lo que se está haciendo para solucionar su problema y no dejarlo en espera sin informarle.
+
+              li Hablar con claridad, pausadamente y vocalizando.
+
+              li Variar el tono de voz para que no resulte demasiado monótono y plano.
+
+              li Utilizar un lenguaje claro, cortes, sin modismos ni tecnicismos.
+
+              li Asegurarse de que el interlocutor no oye interferencias o sonidos raros.
+
+              li No tutee al cliente a no ser, de permiso para ello.
+
+              li Si un cliente deja un mensaje en el contestador, se le deberá devolver la llamada lo antes posible.
+
+              li Al despedirse hacerlos con amabilidad y con expresiones corteses de despedida.
+
+    .tarjeta-numerada
+      .tarjeta-numerada__numero-circulo
+        span.bg-color-curso-i 5
+      .tarjeta-numerada__contenido.bg-azul-claro
+        .row
+          .col-12.col-md-3
+            img.auto(src="@/assets/curso/tema3/text.png")
+          .col-12.col-md
+            p <strong>Mensajes.</strong>  En caso de recibir una llamada para un tercero, se debe tomar nota del mensaje y procesarlo a la mayor brevedad. <strong>El mensaje debe ser  claro y asegurarse que se tienen todos los datos</strong>, principalmente el nombre del destinatario del mensaje, de la persona que deja el mensaje y número de teléfono. 
+
+
+    h4.h5.my-5.pt-4 3.5.2.1 Clasificación según la explotación de los datos.
+
+    .row
+      .col-12.col-md-4.d-flex.align-items-stretch.my-3.my-lg-0
+        .tarjeta.tarjeta__template--azul-claro.p-4
+          figure(style="height:51px")
+            img.auto(src="@/assets/curso/tema3/transferir1.png")
+          p.h6 Unidireccional.
+          p La transmisión se realiza en un solo sentido ejemplo: <strong>"una oferta promocional desde el área de reservas"</strong>.
+
+      .col-12.col-md-4.d-flex.align-items-stretch.my-3.my-lg-0
+        .tarjeta.tarjeta__template--azul-claro.p-4
+          figure(style="height:51px")
+            img.auto(src="@/assets/curso/tema3/transferir2.png")
+          p.h6 Bidireccional.
+          p Cuando se produce una comunicación de emisor a receptor y de receptor a emisor. <strong>Ejemplo:</strong> solicitud de reserva de parte del cliente y respuesta del área de reservas.
+          
+      .col-12.col-md-4.d-flex.align-items-stretch.my-3.my-lg-0
+        .tarjeta.tarjeta__template--azul-claro.p-4
+          figure
+            img.auto(src="@/assets/curso/tema3/transferir3.png")
+          p.h6 Bidireccional simultanea.
+          p Donde el emisor y el receptor intercambian papeles continuamente. <strong>Ejemplo:</strong> solicitud que requiere respuesta inmediata.
+
+    h4.h5.mt-5.mb-4 3.5.2.2 Clasificación según la trasmisión
+    .row
+      .col-12.col-md-6.my-3.my-lg-0
+        .tarjeta--color-curso-j.px-5.py-3
+          .row.align-items-center
+            .col-4
+              img.auto(src="@/assets/curso/tema3/video-conferencia.png")
+            .col-8
+              p <strong>Sincrónica:</strong><br/>chat, videoconferencias.
+      .col-12.col-md-6.my-3.my-lg-0
+        .tarjeta--color-curso-j.px-5.py-3
+          .row.align-items-center
+            .col-4
+              img.auto(src="@/assets/curso/tema3/ordenador.png")
+            .col-8
+              p <strong>Asincrónica:</strong><br/>correo electrónico, foros.
+
+    h4.h5.mt-5.mb-4 3.5.2.3 Técnicas de comunicación telemática
+
+    .tarjeta.tarjeta__template--azul-claro.my-4
+      .row
+        .col-3.d-flex.align-items-stretch
+          span.d-inline-block.bg-color-curso-g.px-4(style="color: #FFF1DB") .
+        .col
+          p <strong>Tema del mensaje:</strong><br/> exponer de manera breve el mensaje.
+
+    .tarjeta.tarjeta__template--azul-claro.my-4
+      .row
+        .col-3.d-flex.align-items-stretch
+          span.d-inline-block.bg-color-curso-g.px-4(style="color: #FFF1DB") .
+        .col
+          p <strong>Cuerpo del mensaje:</strong><br/> sigue el procedimiento de una carta.
+          ul
+            li Saludo.
+            li Texto del mensaje.
+            li Despedida con firma.
+
+    Slider#slider-tema-3
+      .row.justify-content-between
+        .col-12.col-md-4.text-end
+          p.h2.ps-4.lh-sm La revolución de la hotelería moderna
+          p Vino con la Revolución industrial y la generalización de los medios de transporte que permitió a las personas desplazarse de forma masiva de un lugar a otro. Por aquel entonces, <strong>los viajes estaban reservados a clases más adineradas que podían salir de vacaciones y por tanto exigían alojamientos acorde a su nivel económico</strong>. Se generalizan establecimientos para comer y pernoctar, y surge así lo que conocemos como hotelería moderna.
+        .col-12.col-md-8
+          figure.ps-5
+            img(src="@/assets/curso/tema3/slide1.jpg")
+
+      .row.justify-content-between
+        .col-12.col-md-4.text-end
+          p.h2.ps-4.lh-sm La revolución de la hotelería moderna
+          p El primer hotel de concepción moderna en 1807 fue el <strong>"Badische Hof"</strong>, construido en Alemania, comenzó con 18 columnas dóricas que se extendían a lo largo de tres pisos, lo que hizo que el comedor fuera el centro de atención y con algunos aspectos novedosos para la época como sala de lectura o biblioteca.
+        .col-12.col-md-8
+          figure.ps-5
+            img(src="@/assets/curso/tema3/slide2.jpg")
+
+      .row.justify-content-between
+        .col-12.col-md-4.text-end
+          p.h2.ps-4.lh-sm La revolución de la hotelería moderna
+          p Con la aparición del ferrocarril, también surgen los hoteles "término" para dar alojamiento a los viajeros al lado de las estaciones.
+        .col-12.col-md-8
+          figure.ps-5
+            img(src="@/assets/curso/tema3/slide3.jpg")
+
+      .row.justify-content-between
+        .col-12.col-md-4.text-end
+          p.h2.ps-4.lh-sm La revolución de la hotelería moderna
+          p Con la aparición del ferrocarril, también surgen los hoteles "término" para dar alojamiento a los viajeros al lado de las estaciones.
+        .col-12.col-md-8
+          figure.ps-5
+            img(src="@/assets/curso/tema3/slide4.jpg")
+
+      .row.justify-content-between
+        .col-12.col-md-4.text-end
+          p.h2.ps-4.lh-sm La revolución de la hotelería moderna
+          p Francia fue el gran referente en la industria hotelera desde mediados del siglo XIX hasta que a finales del siglo XX, Estados Unidos tomó el relevo con sus grandes cadenas hoteleras y gigantes establecimientos. 
+        .col-12.col-md-8
+          figure.ps-5
+            img(src="@/assets/curso/tema3/slide5.jpg")
+    
 </template>
 
 <script>
 import BannerInterno from '../../components/plantilla/BannerInterno'
 import Tabs from '../../components/Tabs'
+import Slider from '../../components/Slider'
 export default {
   name: 'Tema3',
   components: {
     BannerInterno,
     Tabs,
+    Slider,
   },
 }
 </script>
@@ -167,6 +431,18 @@ export default {
 .tipos-background
   background: url("../../assets/curso/tema3/tipos-background.jpg") no-repeat top right
   background-size: cover
+
+blockquote
+  background-color: $color-curso-h
+  position: relative
+
+  &::after
+    content: '"'
+    font-size: 10rem
+    font-weight: bold
+    position: absolute
+    right: 20px
+    top: -20px
 
 @media (max-width: $bp-max-md)
   .tipos-background
