@@ -179,7 +179,7 @@
     .tarjeta--color-curso-m.my-3
       .row
         .col-12.col-md-3.col-lg-2.d-flex.align-items-stretch
-          div.bg-color-curso-g.px-5.py-1.d-flex.align-items-center.border-left-radius-20
+          div.bg-color-curso-g.px-4.py-4.d-flex.align-items-center.border-left-radius-20
             span.h1.my-0 1
         .col-12.col-md.px-5
           p Si la reserva se confirma, se marca la casilla correspondiente (OK).
