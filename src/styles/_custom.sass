@@ -12,6 +12,8 @@
 @include define-tarjeta-bg("color-curso-h" ,$color-curso-h) // Amarillo pollito
 @include define-tarjeta-bg("color-curso-i", $color-curso-i) // Naranja claro
 @include define-tarjeta-bg("color-curso-j", $color-curso-j) // Naranja mas claro
+@include define-tarjeta-bg("color-curso-l", $color-curso-l) // Rosado
+@include define-tarjeta-bg("color-curso-m", $color-curso-m)
 
 @mixin define-boton-bg($bg-name ,$bg-color, $bg-child)
   .boton
@@ -31,8 +33,10 @@
 
 @include define-background("azul-claro", $color-sistema-g)
 @include define-background("color-curso-g", $color-curso-g)
+@include define-background("color-curso-h", $color-curso-h)
 @include define-background("color-curso-i" , $color-curso-i)
 @include define-background("color-curso-j" , $color-curso-j)
+@include define-background("color-curso-m" , $color-curso-m)
 
 .custom-alert
   .float-image
@@ -82,6 +86,10 @@ blockquote
 
   .border-radius-20
     border-radius: 20px
+
+  .border-left-radius-20
+    border-top-left-radius: 20px
+    border-bottom-left-radius: 20px
 
   .tarjeta-numerada
     margin: 16px 0
