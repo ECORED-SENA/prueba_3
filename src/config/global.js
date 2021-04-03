@@ -177,12 +177,6 @@ export const menuPrincipal = {
           titulo: 'Tipos de comunicación',
           hash: 't_3_5',
         },
-        {
-          icono: 'far fa-file-alt',
-          numero: '3.6',
-          titulo: 'Procesos textiles',
-          hash: 't_3_6',
-        },
       ],
     },
     {
