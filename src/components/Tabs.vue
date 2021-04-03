@@ -1,5 +1,5 @@
 <template lang="pug">
-.tabs.my-5
+.tabs.my-5.pb-5
   .tabs__triggers
     .row
       .col-12.col-md-6.col-lg.text-center.my-2.my-lg-0(v-for="elm of triggers" :key="`trigger-${elm.id}`" :class="isActive(elm.id) ? 'active':''")
